@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema(
       type: String,
       trim: true,
       unique: true,
-      lowercase: true,
+
        default:Math.random()
     },
     firstName: {
@@ -46,11 +46,11 @@ middleName:{
     },
     createdOn: {
       type: String,
-      lowercase: true,
+      lowercase: true, //try to remove this
        default:Date.now()
     },
     phone: { 
-      type: String,
+      type: String, //error cheack
       required:true,
       unique: true,
       trim:true,
