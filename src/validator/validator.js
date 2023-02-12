@@ -34,10 +34,9 @@ const isValidPassword = function(password){
 // pincode validation
 
 const isValidPincode = function(pin){
-
         const pattern = /^\d{6}$/;
         return pattern.test(pin); //  return a boolean
-   
+
 }
 
 //phone no validation

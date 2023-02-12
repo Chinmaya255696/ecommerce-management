@@ -21,7 +21,7 @@ app.use("/", userRoute);
 // "mongodb+srv://ChinuECart:GXVDXZ0MYKoDw6lS@cluster0.ocvqgdj.mongodb.net/test"
 mongoose
   .connect(
-    "mongodb+srv://Jagcho:71nEXJtXcYfVx8T6@cluster0.5bg4mzz.mongodb.net/group",
+    "mongodb+srv://ChinuECart:GXVDXZ0MYKoDw6lS@cluster0.ocvqgdj.mongodb.net/e-cart",
     {
       useNewUrlParser: true,
     }
